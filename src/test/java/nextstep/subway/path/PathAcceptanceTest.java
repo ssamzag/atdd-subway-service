@@ -115,7 +115,7 @@ public class PathAcceptanceTest extends AcceptanceTest {
                 () -> assertThat(pathResponse.getStations().get(2).getId()).isEqualTo(양재역.getId()),
                 () -> assertThat(pathResponse.getStations().get(3).getId()).isEqualTo(강남역.getId()),
                 () -> assertThat(pathResponse.getDistance()).isEqualTo(18),
-                () -> assertThat(pathResponse.getFare()).isEqualTo(880));
+                () -> assertThat(pathResponse.getFare()).isEqualTo(1680));
     }
 
     /**
